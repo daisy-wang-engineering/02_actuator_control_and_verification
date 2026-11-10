@@ -1,0 +1,178 @@
+[
+  {
+    "req_id": "SYS-001",
+    "ver_id": "VER-001",
+    "measured": 0.12943861959788694,
+    "limit": 0.5,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 74.11227608042262,
+    "notes": "30 deg step, error at t = 3 s"
+  },
+  {
+    "req_id": "SYS-002",
+    "ver_id": "VER-002",
+    "measured": 0.15500484573263407,
+    "limit": 3.0,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 94.8331718089122,
+    "notes": "peak true angle minus target"
+  },
+  {
+    "req_id": "SYS-003",
+    "ver_id": "VER-003",
+    "measured": 0.243,
+    "limit": 1.0,
+    "unit": "s",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 75.7,
+    "notes": "last exit from +/-1 deg band"
+  },
+  {
+    "req_id": "SYS-004",
+    "ver_id": "VER-004",
+    "measured": 2.471148340685278,
+    "limit": 2.0,
+    "unit": "Hz",
+    "sense": ">=",
+    "passed": true,
+    "margin_pct": 23.557417034263906,
+    "notes": "set-point response -3 dB; crossover 5.30 Hz"
+  },
+  {
+    "req_id": "SYS-005",
+    "ver_id": "VER-005",
+    "measured": 52.83875614056727,
+    "limit": 45.0,
+    "unit": "deg",
+    "sense": ">=",
+    "passed": true,
+    "margin_pct": 17.41945809014949,
+    "notes": "peak sensitivity Ms = 1.41"
+  },
+  {
+    "req_id": "SYS-006",
+    "ver_id": "VER-006",
+    "measured": 27.671284184216834,
+    "limit": 20.0,
+    "unit": "ms",
+    "sense": ">=",
+    "passed": true,
+    "margin_pct": 38.356420921084165,
+    "notes": "with 20 ms delay: overshoot 2.56 deg, settling 0.51 s"
+  },
+  {
+    "req_id": "SYS-007",
+    "ver_id": "VER-007",
+    "measured": 0.014118507975354078,
+    "limit": 0.2,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 92.94074601232296,
+    "notes": "ten deterministic noise seeds"
+  },
+  {
+    "req_id": "SYS-008",
+    "ver_id": "VER-008",
+    "measured": 1.703048294064427,
+    "limit": 2.0,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 14.847585296778654,
+    "notes": "0.025 N m applied 1-2 s"
+  },
+  {
+    "req_id": "SYS-009",
+    "ver_id": "VER-009",
+    "measured": 0.2209065184917307,
+    "limit": 0.75,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 70.5457975344359,
+    "notes": "error at t = 3 s, 1 s after load removal"
+  },
+  {
+    "req_id": "SYS-010",
+    "ver_id": "VER-010",
+    "measured": 100.0,
+    "limit": 95.0,
+    "unit": "% pass",
+    "sense": ">=",
+    "passed": true,
+    "margin_pct": 5.263157894736842,
+    "notes": "200 randomised parameter sets"
+  },
+  {
+    "req_id": "SYS-011",
+    "ver_id": "VER-011",
+    "measured": 31.0,
+    "limit": 50.0,
+    "unit": "ms",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 38.0,
+    "notes": "100% dropout and invalid (NaN) reading; 0 V on every sample"
+  },
+  {
+    "req_id": "SYS-012",
+    "ver_id": "VER-012",
+    "measured": 54.00000000000002,
+    "limit": 100.0,
+    "unit": "ms",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 45.99999999999998,
+    "notes": "onsets 0-0.12 s while the axis is moving"
+  },
+  {
+    "req_id": "SYS-013",
+    "ver_id": "VER-013",
+    "measured": 63.793210550693985,
+    "limit": 85.0,
+    "unit": "deg",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 24.949164058007074,
+    "notes": "61 onsets 0-0.6 s; limit switch needed in 11 of them"
+  },
+  {
+    "req_id": "SYS-014",
+    "ver_id": "VER-014",
+    "measured": 12.0,
+    "limit": 12.0,
+    "unit": "V",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 0.0,
+    "notes": "nominal, load, hard reversal, blocked rotor"
+  },
+  {
+    "req_id": "SYS-015",
+    "ver_id": "VER-015",
+    "measured": 4.005469684443357,
+    "limit": 5.0,
+    "unit": "A",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 19.890606311132863,
+    "notes": "blocked rotor with monitor and limit switch disabled = worst case"
+  },
+  {
+    "req_id": "SYS-016",
+    "ver_id": "VER-016",
+    "measured": 0.26468420606183424,
+    "limit": 0.5,
+    "unit": "V rms",
+    "sense": "<=",
+    "passed": true,
+    "margin_pct": 47.06315878763315,
+    "notes": "derivative filter 3 ms; unfiltered gives ~1.3 V"
+  }
+]

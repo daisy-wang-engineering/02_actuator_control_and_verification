@@ -1,0 +1,17 @@
+Requirement,Need,Method,Verification,Criterion,Measured,Margin %,Result,Notes
+SYS-001,N1,Test,VER-001,<= 0.5 deg,0.1294 deg,74,PASS,"30 deg step, error at t = 3 s"
+SYS-002,N2,Test,VER-002,<= 3 deg,0.155 deg,95,PASS,peak true angle minus target
+SYS-003,N2,Test,VER-003,<= 1 s,0.243 s,76,PASS,last exit from +/-1 deg band
+SYS-004,N2,Analysis,VER-004,>= 2 Hz,2.471 Hz,24,PASS,set-point response -3 dB; crossover 5.30 Hz
+SYS-005,N3,Analysis,VER-005,>= 45 deg,52.84 deg,17,PASS,peak sensitivity Ms = 1.41
+SYS-006,N3,Analysis + Test,VER-006,>= 20 ms,27.67 ms,38,PASS,"with 20 ms delay: overshoot 2.56 deg, settling 0.51 s"
+SYS-007,N3,Test,VER-007,<= 0.2 deg,0.01412 deg,93,PASS,ten deterministic noise seeds
+SYS-008,N3,Test,VER-008,<= 2 deg,1.703 deg,15,PASS,0.025 N m applied 1-2 s
+SYS-009,N3,Test,VER-009,<= 0.75 deg,0.2209 deg,71,PASS,"error at t = 3 s, 1 s after load removal"
+SYS-010,N3,Analysis,VER-010,>= 95 % pass,100 % pass,5,PASS,200 randomised parameter sets
+SYS-011,N4,Test,VER-011,<= 50 ms,31 ms,38,PASS,100% dropout and invalid (NaN) reading; 0 V on every sample
+SYS-012,N4,Test,VER-012,<= 100 ms,54 ms,46,PASS,onsets 0-0.12 s while the axis is moving
+SYS-013,N4,Test,VER-013,<= 85 deg,63.79 deg,25,PASS,61 onsets 0-0.6 s; limit switch needed in 11 of them
+SYS-014,N4,Test,VER-014,<= 12 V,12 V,0,PASS,"nominal, load, hard reversal, blocked rotor"
+SYS-015,N4,Test,VER-015,<= 5 A,4.005 A,20,PASS,blocked rotor with monitor and limit switch disabled = worst case
+SYS-016,N3,Test,VER-016,<= 0.5 V rms,0.2647 V rms,47,PASS,derivative filter 3 ms; unfiltered gives ~1.3 V
